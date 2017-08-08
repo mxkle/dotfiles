@@ -1,0 +1,11 @@
+---
+
+dotfiles_definitions:
+  - { name: ".bashrc", path: "{{home_dir}}" }
+  - { name: "dunstrc", path: "{{home_dir}}/.config/dunst" }
+  - { name: "qutebrowser.conf", path: "{{home_dir}}/.config/qutebrowser" }
+  - { name: "bspwmrc", path: "{{home_dir}}/.config/bspwm" }
+  - { name: "sxhkdrc", path: "{{home_dir}}/.config/sxhkd" }
+  - { name: "tmux.conf", path: "{{home_dir}}/.config/tmux" }
+  - { name: "init.vim", path: "{{home_dir}}/.config/nvim" }
+
