@@ -6,6 +6,7 @@
 alias ls='ls -p --color=never'
 alias tmux='tmux -f /home/max/.config/tmux/tmux.conf'
 alias xbps-install='sudo xbps-install $@'
+alias vim='nvim'
 
 function 4chnd() {
 	curl -s $@ | grep  -oP 'i\.4cdn\.org\/[\w\d]+\/[\w\d]+(?<!s)\.(jpg|png|jpeg|webm|gif)' |\

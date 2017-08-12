@@ -2,6 +2,9 @@
 
 dotfiles_definitions:
   - { name: ".bashrc", path: "{{home_dir}}" }
+  - { name: ".Xresources", path: "{{home_dir}}" }
+  - { name: ".Xresources.colors", path: "{{home_dir}}" }
+  - { name: ".xinitrc", path: "{{home_dir}}" }
   - { name: "dunstrc", path: "{{home_dir}}/.config/dunst" }
   - { name: "qutebrowser.conf", path: "{{home_dir}}/.config/qutebrowser" }
   - { name: "bspwmrc", path: "{{home_dir}}/.config/bspwm" }
