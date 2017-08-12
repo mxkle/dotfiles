@@ -6,6 +6,13 @@ ansible needed.
 ```
 git clone https://github.com/mxkle/dotfiles
 cd dotfiles
-ansible-playbook dotfiles.yml --extra-vars "/something/something/dotfiles/files"
+ansible-playbook --extra-vars "dots=/something/something/dotfiles/files" dotfiles.yml 
 ```
 
+# update
+```
+#cd into local dir
+git add .
+git commit -m 'added new files'
+git push origin master
+```
